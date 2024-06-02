@@ -1,0 +1,53 @@
+body {
+  color: #000000;
+}
+
+#hero {
+  text-align: center;
+  background-image: url("Mumbai.jpg");
+  background-size: cover;
+  padding: 10px 0 200px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#title {
+  background: rgb(230, 153, 8);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#description {
+  background: rgb(230, 153, 8);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#wrap {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#abc {
+  width: 200px;
+  border-radius: 100%;
+}
+#title2 {
+  text-align: center;
+}
+.avatar {
+  width: 150px;
+  padding-right: 10px;
+}
+
+.card {
+  padding: 20px;
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-bottom: 5px solid #043936;
+  background: #308ade;
+}
+#hero2 {
+  padding-bottom: 50;
+}
